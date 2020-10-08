@@ -1,0 +1,61 @@
+1.Difference between HTTP1.1 vs HTTP2
+
+HTTP 1.1 was released in 1997, a year after HTTP 1.0 was released. HTTP1.1 was more efficient in handling multiple requests from client than HTTP1.0 as it could have multiple TCP requests in a process.
+
+-HTTP2 was released in 2015 where it was using the streaming which allows the web server to continously send data to a client over a single connection whereas HTTP1.1 could only have 6 TCP connections. HTTP2 provides request multiplexing.
+-HTTP2.0 allowed compression of header files which were being repeated at each request and would make the transfer slow. 
+- As HEAD method only sends the status and information about the document but GET sends the actual document content along with the status and information. Thus this reduces the speed and increases the time for transfer, HTTP2.0 allows the header and the request data to be separeted. Hence makes the transfer more quick.
+-It is more efficient as the resources such as js and css component resources are sent to the browser before the html document is parsed
+
+2.http version history
+1991 - HTTP/0.9
+1996 - HTTP/1.0
+1997 - HTTP.1.1
+2015- HTTP/2
+2018 -HTTP/3
+
+HTTP/0.9: 
+-HTTP/0.9 was the first version released in 1991.It had the ability to perform basic operations such as GET methods.
+- The TCP connection would be immeidately terminated after the response
+-Only Plain HTML files could be transferred
+
+HTTP/1.0: 
+-This was the second version which had added methods like HEAD and POST along with the previous version method
+- Different files like scripts and stylesheets were could also be transferred over the web
+-new connection required for each request
+
+HTTP/1.1:
+-The same connections could be reused for multiple response cycles
+-Addition of few new methods such as DELETE and TRACE
+- used the buffer transfer method
+
+HTTP/2.0:
+-Uses stream connections i.e a single TCP tunnel which has enhanced speed
+-Compression of headers which avoid repetition of the data
+-separation of header and request data and sending out resources to the browser before the parsing of file
+
+HTTP/3.0:
+-Will use QUIC transport protocol which provides low-latency and stream multiplexing
+-QUIC replacing the TCP protocol results in no additional handshakes 
+
+
+3.List 5 difference between Browser JS(console) vs Nodejs
+
+a)Nodejs is a Javascript runtime or enivronemnt to run javascript outside the browser whereas JS(console) is used to run it inside the browser
+b)No rendering engine in nodejs whereas there is a rendering engine and framework in JS(console) 
+c)we use js code in script tag for browser but for nodejs we can use nodefilename.js to run it
+d)No networking module in nodejs as we have to install a module or extend it's packages
+e) No hierarchy or order in nodejs whereas there are rules of declaration for elements in JS
+
+4.Abstract Working of JS engine(V8)
+
+-The JS engine starts when the JS File reaches the  parser,it then breaks the code to tokens or lexical analysis.
+-Then AST or Abstract syntax tree takes this tokens and they are structured into a tree like structure with an order
+-Then it goes through the interpreter(ignition).
+The ignition will convert it into byte code. While the process is going on the profiler monitors it and calls and utilizes the compiler(turbo fan) in a situation where the code can be optimized.This optimized code replaces the byte code which is send to the machine.This is also called JIT(Just in Time) compiler.
+
+5.what happens when you type a URL in the address bar in the browser?
+
+-The DNS will convert the host URL into a IP address along with port number
+-It will send the HTTP request to the server (GET Method)
+- The request which is sent to server checks the port number and while in this process it allocates a port number to the source of information. After transferring the data through HTTP response,the source and destination port number are exhanged
