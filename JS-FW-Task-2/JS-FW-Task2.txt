@@ -1,0 +1,71 @@
+1)How do you copy by value a composite data type?
+
+a)
+var arr = [1,2,3]
+var arr2 = []
+for(var i=0; i<arr.length;i++){
+    arr2[i] = arr[i]
+   
+}
+console.log(arr2)
+
+b)
+var arr = [1,2,3]
+var arr2 = []
+for(var i=0; i<arr.length;i++){
+   arr2.push(arr[i])
+   
+}
+console.log(arr2)
+
+2)why there is a difference in behavior for copying contents in primitive and non primitive type?
+
+Primitive are stored by value. That means that every time we decide to declare a new variable using primitive data type we are creating a new address in memory for the value.
+Whereas Non-primitive are stored by reference that is storing pointers to an address. so when we modify any variable which it points to the same address, it will change the value stored inside the address itself.
+
+ 
+3) Use typeof in all the datatypes and check the result
+    * typeof(1) - Number
+    * typeof(1.1) - Number
+    * typeof("1.1") - String
+    * typeof(true) -Boolean
+    * typeof(null) - Object
+    * typeof(undefined) - Undefined
+    * typeof([]) -Object
+    * typeof({}) - Object
+
+4) Write a blog about objects and its internal representation in Javascript
+
+https://medium.com/@c.nitishmohan/object-and-its-internal-representation-in-javascript-c78ef99484f5
+
+5) execute and see at least 15 cli commands. like mkdir, ls etc.
+
+a)dir: lists the directory of the system
+b)cd (pathname) : changing the directory
+c) cd.. : Move one level up in the file system
+d)move: move a file to another folder
+e)cls: clears the cli window
+f)exit: closes the cli window
+g)rd:delete directory
+h)ipconfig: display ip network settings
+i)nslookup: query the DNS
+j)ping ip-address: pings the network
+k)netstat: display connection status
+l) COLOR [attr] -> COLOR [fc] - changes color to white background and red front interface
+m)echo : text output
+n)time: displays the system time
+o)ver: displays sytem version
+
+
+
+6) What is the difference between window, screen, and document in Javascript?
+
+-Window is the main Javascript object or the global object in the browser.And on top of the docuement object and screen
+-The screen is an object inside the window object
+-Document is the main visible object over which the window object sits
+
+7) Try the rest countries api
+Extract and print the flag url of all the countries in console. use the html template. 
+https://restcountries.eu/rest/v2/all
+
+File Attached
