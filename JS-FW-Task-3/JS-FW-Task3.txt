@@ -1,0 +1,7 @@
+Authorisation:
+-It is a mechanism used for auhtenticating the origins of datagram or packets of data transferred. And ensures it's integrity is maintained.
+-when a datagram is sent across the internet it consists of a payload and a header. The authentication header is verified of original source of the packet and ensures the integrity is intact.
+ 
+CORS:
+CORS is a mechanism where it uses an additional HTTP headers to inform browser server at one origin to grant access to selected resources from a different origin.
+It gets executed when the browser tries to request a resources which has different origin that it's own.
