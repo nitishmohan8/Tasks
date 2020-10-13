@@ -5,3 +5,52 @@ Authorisation:
 CORS:
 CORS is a mechanism where it uses an additional HTTP headers to inform browser server at one origin to grant access to selected resources from a different origin.
 It gets executed when the browser tries to request a resources which has different origin that it's own.
+
+
+/* API KEY with openweather */
+by city:
+var request = new XMLHttpRequest() 
+
+request.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q=Chennai,asia&APPID=254f5b11f6ea5a885dbb9d9600227434', true);
+request.send();
+
+request.onload = function() {
+
+    var data = JSON.parse(this.response) 
+ 
+   	console.log(data)
+   }
+    
+   ;
+
+by city id:
+
+var request = new XMLHttpRequest() 
+
+request.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=1264527&appid=254f5b11f6ea5a885dbb9d9600227434', true);
+request.send();
+
+request.onload = function() {
+
+    var data = JSON.parse(this.response) 
+ 
+   	console.log(data)
+   }
+    
+   ;
+   
+   
+ by lat long:
+ var request = new XMLHttpRequest() 
+
+request.open('GET', 'http://api.openweathermap.org/data/2.5/weather?lat=80.28&lon=13.09&appid=254f5b11f6ea5a885dbb9d9600227434', true);
+request.send();
+
+request.onload = function() {
+
+    var data = JSON.parse(this.response) 
+ 
+   	console.log(data)
+   }
+    
+   ;
