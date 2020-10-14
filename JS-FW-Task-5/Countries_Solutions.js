@@ -56,3 +56,59 @@ request.onload = function() {
    
       
    };
+
+
+/*Print total population of countries using reduce function */
+
+var request = new XMLHttpRequest() 
+
+request.open('GET', 'https://restcountries.eu/rest/v2/all', true);
+request.send();
+
+request.onload = function() {
+
+    var data = JSON.parse(this.response) 
+    var popdata = data.map(pop => pop.population).reduce((sum,pop2) => sum +pop2)
+  
+  
+   console.log(popdata)
+   
+      
+   };
+
+ /*print total population of countries in Asia using filter and reduce*/
+
+ var request = new XMLHttpRequest() 
+
+request.open('GET', 'https://restcountries.eu/rest/v2/all', true);
+request.send();
+
+request.onload = function() {
+
+    var data = JSON.parse(this.response) 
+    var newdata = data.filter(pop => pop.region == 'Asia').reduce(
+    	(sum,val) => {return sum + val.population},0)
+    console.log(newdata)
+      
+   };
+
+
+/*Print countries which use US dollar */
+
+var request = new XMLHttpRequest() 
+
+request.open('GET', 'https://restcountries.eu/rest/v2/all', true);
+request.send();
+
+request.onload = function() {
+
+    var data = JSON.parse(this.response) 
+     for(var i=0;i<data.length;i++){
+     	for(var j=0;j<data[i].currencies.length;j++){
+     		if(data[i].currencies[j].code == 'USD'){
+     			console.log(data[i])
+     		}
+     	}
+     }
+
+   };
