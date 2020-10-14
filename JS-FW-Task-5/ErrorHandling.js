@@ -10,18 +10,19 @@ request.onload = function() {
     var newarr = []
 
     try {
-	alert('Message executed')
-	regdata
+	alert('Test 1') // Message executed
+	regdata  // error1
 
-   alert('Message not executed')
-}catch(err) {
-  	alert(err.Message)
+   alert('Message not executed')  //Message won't be executed
+}
+   catch(err) {
+  	alert(err.Message)  //Message executed
   }
     for(var i=0;i<data.length;i++){
    	  newdata.name=data[i].name
       newdata.capital = data[i].capital
       newdata.flag = data[i].flag
-      console.log(newdata)
+      console.log(newdata)                    // output generated
   }
 
    
