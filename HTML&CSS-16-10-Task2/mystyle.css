@@ -1,0 +1,393 @@
+.one{
+			border-top: 420px solid rgb(74, 71, 71);
+			width: 900px;
+
+			margin-left: 270px; 
+			border-top-left-radius:65px;
+			border-top-right-radius:65px;
+            position: absolute;
+            
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+            
+
+            
+
+		}
+
+		.two{
+			border: 2px dotted white;
+			border-radius: 40px;
+			width: 600px;
+			height: 3300px;
+			padding: 80px;
+			margin-left: 335px;
+			margin-top: 40px;
+			position: absolute;
+
+		}
+
+		.content1{
+			position: absolute;
+			font-size: 40px;
+			font-family: 'Piazzolla', serif;
+			font-weight: normal;
+			margin-left: 420px;
+			margin-top: 70px;
+			color: white;
+		}
+
+
+		
+		.secondblockimg{
+
+			width: 900px;
+			height: 420px;
+			margin-left: 270px;
+			margin-top: 377px;
+			position: absolute;
+		    opacity: 0.3;
+
+			clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
+			            
+		}
+		.content2{
+			position: absolute;
+			font-size: 40px;
+			font-family: 'Piazzolla', serif;
+			font-weight: normal;
+			color: black;
+			margin-left: 420px;
+			margin-top: 430px;
+
+		}
+		.content2part2{
+			position: absolute;
+			font-size: 25px;
+			font-family: 'Piazzolla', serif;
+			font-weight: bolder;
+			color: black;
+			margin-left: 420px;
+			margin-top: 560px;
+		}
+		.content2part3{
+			position: absolute;
+			font-size: 15px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: normal;
+			color: black;
+			margin-left: 420px;
+			margin-top: 610px;
+			line-height: 8px;
+		}
+		.thirdblock{
+            border-top: 420px solid rgb(22, 41, 74);
+			width: 900px;
+			
+			margin-left: 270px;
+			margin-top: 755px;
+			position: absolute;
+			clip-path: polygon(0 10% , 100% 0% , 100% 90% , 0 100%);
+
+
+		}
+
+		.content3{
+            position: absolute;
+			font-size: 40px;
+			font-family: 'Piazzolla', serif;
+			font-weight: normal;
+			color: white;
+			margin-left: 540px;
+			margin-top: 790px;
+		}
+
+		.content3part2{
+			position: absolute;
+			font-size: 15px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: normal;
+			color: white;
+			margin-left: 610px;
+			margin-top: 930px;
+			line-height: 8px;
+		}
+
+		.fourthblock{
+			width: 900px;
+			height: 420px;
+			margin-left: 270px;
+			margin-top: 1133px;
+			position: absolute;
+		    opacity: 0.5;
+
+			clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
+		}
+		.content4{
+          position: absolute;
+			font-size: 40px;
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			color: black;
+			line-height: 2px;
+			
+		}
+		.content4part2{
+			position: absolute;
+			font-size: 14px;
+			font-family: 'Roboto', sans-serif;
+			font-weight: normal;
+			color: black;
+			margin-left: 480px;
+			margin-top: 1320px;
+			line-height: 4px;
+		}
+
+		.fifthblock{
+			border-top: 420px solid rgb(199, 161, 198);
+			width: 900px;
+			
+			margin-left: 270px;
+			margin-top: 1511px;
+			position: absolute;
+			clip-path: polygon(0 10% , 100% 0% , 100% 90% , 0 100%);
+		}
+
+		.content5{
+			position: absolute;
+			font-size: 33px;
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			color: white;
+			line-height: 2px;
+		}
+		.content5part2{
+			position: absolute;
+			font-size: 14px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: normal;
+			color: white;
+			margin-left: 610px;
+			margin-top: 1740px;
+			line-height: 5px;
+		}
+		.sixthblock{
+            height: 420px;
+			width: 900px;
+			opacity: 0.4;
+			margin-left: 270px;
+			margin-top: 1889px;
+			position: absolute;
+			clip-path: polygon(0 10% , 100% 0% , 100% 90% , 0 100%);
+		}
+		.content6{
+				font-size: 140px; 
+				font-weight: normal;
+				color: black;
+				margin-top: 1905px; 
+				margin-left: 440px; 
+				position: absolute; 
+				font-family: 'Dancing Script',cursive;"
+		}
+
+		.content6part2{
+				position: absolute;
+				font-size: 40px;
+				font-family: 'Piazzolla', serif;
+				font-weight: bold;
+				color: black;
+				margin-top: 1965px; 
+				margin-left: 520px; 
+				
+				
+		
+		}
+		.content6part3{
+				position: absolute;
+				font-size: 40px;
+				font-family: 'Piazzolla', serif;
+				font-weight: bold;
+				color: black;
+				margin-top: 1995px; 
+				margin-left: 520px; 
+				
+				
+		
+		}
+		.content6part4{
+			position: absolute;
+			color: black;
+			line-height: 8px;
+				margin-top: 2060px; 
+				margin-left: 520px; 
+				font-size: 14px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: bold;
+		}
+		.seventhblock{
+			border-top: 420px solid rgb(230, 126, 216);
+			width: 900px;
+			
+			margin-left: 270px;
+			margin-top: 2267px;
+			position: absolute;
+			clip-path: polygon(0 10% , 100% 0% , 100% 90% , 0 100%);
+		}
+
+		.content7{
+			font-size: 140px; 
+				font-weight: normal;
+				color: white;
+				margin-top: 2300px; 
+				margin-left: 420px; 
+				position: absolute; 
+				font-family: 'Dancing Script',cursive;"
+		}
+		.content7part2{
+			position: absolute;
+				font-size: 30px;
+				font-family: 'Piazzolla', serif;
+				font-weight: bold;
+				color: white;
+				margin-top: 2385px; 
+				margin-left: 480px;
+		}
+		.content7part3{
+			position: absolute;
+				font-size: 26px;
+				font-family: 'Piazzolla', serif;
+				font-weight: bold;
+				color: white;
+				margin-top: 2445px; 
+				margin-left: 500px;
+		}
+
+		.content7part4{
+			position: absolute;
+			color: white;
+			line-height: 8px;
+				margin-top: 2500px; 
+				margin-left: 520px; 
+				font-size: 14px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: normal;
+			word-spacing: 3px;
+		}
+
+		.eightblock{
+			height: 420px;
+			width: 900px;
+			opacity: 0.4;
+			margin-left: 270px;
+			margin-top: 2644px;
+			position: absolute;
+			clip-path: polygon(0 10% , 100% 0% , 100% 90% , 0 100%);
+		}
+
+		.content8{
+			font-size: 140px; 
+				font-weight: normal;
+				color: black;
+				margin-top: 2700px; 
+				margin-left: 420px; 
+				position: absolute; 
+				font-family: 'Dancing Script',cursive;"
+		}
+		.content8part2{
+				position: absolute;
+				font-size: 35px;
+				font-family: 'Piazzolla', serif;
+				font-weight: bold;
+				color: black;
+				margin-top: 2793px; 
+				margin-left: 490px;
+		}
+		.content8part3{
+			position: absolute;
+			color: black;
+			  line-height: 8px;
+			  word-spacing: normal;
+				margin-top: 2840px; 
+				margin-left: 490px; 
+				font-size: 14px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 400;
+			
+		}
+		.ninthblock{
+			
+			border-top: 420px solid rgb(245, 222, 179);
+			width: 900px;
+			
+			margin-left: 270px;
+			margin-top: 3022px;
+			position: absolute;
+			clip-path: polygon(0 10% , 100% 0% , 100% 90% , 0 100%);
+		}
+
+		.content9{
+			font-size: 140px; 
+				font-weight: normal;
+				color: white;
+				margin-top: 3090px; 
+				margin-left: 550px; 
+				position: absolute; 
+				font-family: 'Dancing Script',cursive;"
+				position: absolute;
+		}
+		.content9part2{
+			position: absolute;
+				font-size: 35px;
+				font-family: 'Piazzolla', serif;
+				font-weight: bold;
+				color: white;
+				margin-top: 3173px; 
+				margin-left: 634px;
+		}
+
+		.content9part3{
+			position: absolute;
+			color: white;
+			  line-height: 8px;
+			  word-spacing: normal;
+				margin-top: 3230px; 
+				margin-left: 640px; 
+				font-size: 14px;
+			font-family: 'Raleway', sans-serif;
+			font-weight: bold;
+			
+		}
+
+		.tenthblock{
+			border-top: 420px solid rgb(168, 167, 163);
+			width: 900px;
+			margin-bottom: 15px;
+			margin-left: 270px;
+			margin-top: 3400px;
+			position: absolute;
+			clip-path: polygon(0 10% , 100% 0% , 100% 100% , 0 100%);
+		}
+
+		.content10{
+			position: absolute;
+				font-size: 18px;
+				font-family: 'Piazzolla', serif;
+				font-weight: bold;
+				color: rgb(87, 80, 86);
+				margin-top: 3463px; 
+				margin-left: 334px;
+				word-spacing: normal;
+				
+		}
+
+		.content10part2{
+			position: absolute;
+				font-size: 15px;
+				font-family: 'Raleway', sans-serif;
+				font-weight: bold;
+				color: rgb(87, 80, 86);
+				margin-top: 3503px; 
+				margin-left: 904px;
+				word-spacing: 400;
+				word-spacing: normal;
+				line-height: 4px;
+		}
