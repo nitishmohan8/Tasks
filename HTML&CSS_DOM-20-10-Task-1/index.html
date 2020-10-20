@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume DOM </title>
+    <!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+    
+</style>
+</head>
+<body>
+
+<script >
+    
+    
+    
+
+    var firstblock = document.createElement('div')
+    firstblock.classList.add('first')
+
+
+    
+    
+
+    var secondblock = document.createElement('div')
+    secondblock.classList.add('second')
+
+    var thirdblock = document.createElement('div')
+    thirdblock.classList.add('third')
+
+    var fourthblock = document.createElement('div')
+    fourthblock.classList.add('lastblock')
+
+   
+
+
+    var profilepicture= document.createElement('img')
+    profilepicture.src = "bd.jpg";
+    profilepicture.classList.add('photo')
+
+    
+
+
+    var details = document.createElement('p')
+    details.innerText= 'N.Damen Avenue,Chicago 99999|999-999-999| hello@kickresume.com|www.kickresume.com'
+    details.classList.add('info')
+
+   // var name = document.createElement('p')
+    //name.innerHTML = 'BRIAN DUDEY'
+    
+
+    var horline = document.createElement('div')
+    horline.classList.add('horizontal')
+    
+    var verline = document.createElement('div')
+    verline.classList.add('vertical')
+
+
+
+    var firstsection = document.createElement('div')
+        var profile = document.createElement('div')
+        profile.innerHTML = 'Profile'
+        profile.classList.add('part1')
+
+        var profilecontent = document.createElement('p')
+        profilecontent.innerHTML ='Innovative optimised solution seeker.Excited to be at the deployment phase of my new career as a web developer.I am ambitious,adventurous,assidious,animated and an advocate'
+        profilecontent.classList.add('part11')
+
+        var profileicon = document.createElement('img')
+        profileicon.src = "profile1.png";
+        profileicon.classList.add('profilephoto')
+
+    firstsection.append(profile,profilecontent,profileicon)
+
+ 
+    var secondsection = document.createElement('div')
+
+        //Main//
+        var skills = document.createElement('div')
+        skills.innerHTML = 'Skills'
+        skills.classList.add('part2')
+
+        //Main//
+        var technical = document.createElement('div')
+        technical.innerHTML = 'Technical Skills'
+        technical.classList.add('techskills')
+
+        var technicallist =document.createElement('div')
+        technicallist.classList.add('techskills2')
+
+        var ts = document.createElement('p')
+        ts.innerHTML='Javascript: '
+        ts.classList.add('pspace')
+        var tss = document.createElement('INPUT')
+        tss.setAttribute("type","range")
+        ts.append(tss)
+
+        var ts2 = document.createElement('p')
+        ts2.innerHTML='CSS: '
+        ts2.classList.add('pspace')
+        var tss2 = document.createElement('INPUT')
+        tss2.setAttribute("type","range")
+        ts2.append(tss2)
+
+        var ts3 = document.createElement('p')
+        ts3.innerHTML='HTML: '
+        ts3.classList.add('pspace')
+        var tss3 = document.createElement('INPUT')
+        tss3.setAttribute("type","range")
+        ts3.append(tss3)
+
+        var ts4 = document.createElement('p')
+        ts4.innerHTML='React: '
+        ts4.classList.add('pspace')
+        var tss4 = document.createElement('INPUT')
+        tss4.setAttribute("type","range")
+        ts4.append(tss4)
+
+        var ts5 = document.createElement('p')
+        ts5.innerHTML='Redux: '
+        ts5.classList.add('pspace')
+        var tss5 = document.createElement('INPUT')
+        tss5.setAttribute("type","range")
+        ts5.append(tss5)
+
+        var ts6 = document.createElement('p')
+        ts6.innerHTML='Mongo: '
+        ts6.classList.add('pspace')
+        var tss6 = document.createElement('INPUT')
+        tss6.setAttribute("type","range")
+        ts6.append(tss6)
+
+        var ts7 = document.createElement('p')
+        ts7.innerHTML='Deployment: '
+        ts7.classList.add('pspace')
+        var tss7 = document.createElement('INPUT')
+        tss7.setAttribute("type","range")
+        ts7.append(tss7)
+        
+        //Main//
+        technicallist.append(ts,ts2,ts3,ts4,ts5,ts6,ts7)
+
+        //Main//
+        var nontechnical = document.createElement('div')
+        nontechnical.innerHTML = ' Non-Technical Skills'
+        nontechnical.classList.add('nontechskills')
+
+        //Main//
+        var nontechnicallist =document.createElement('div')
+        nontechnicallist.classList.add('nontechskills2')
+
+        var nts = document.createElement('p')
+        nts.innerHTML='Project Management: '
+        nts.classList.add('pspace')
+        var ntss = document.createElement('INPUT')
+        ntss.setAttribute("type","range")
+        nts.append(ntss)
+
+        var nts2 = document.createElement('p')
+        nts2.innerHTML='Recruitment: '
+        nts2.classList.add('pspace')
+        var ntss2 = document.createElement('INPUT')
+        ntss2.setAttribute("type","range")
+        nts2.append(ntss2)
+
+        var nts3 = document.createElement('p')
+        nts3.innerHTML='Business Development: '
+        nts3.classList.add('pspace')
+        var ntss3 = document.createElement('INPUT')
+        ntss3.setAttribute("type","range")
+        nts3.append(ntss3)
+
+        var nts4 = document.createElement('p')
+        nts4.innerHTML='Editing: '
+        nts4.classList.add('pspace')
+        var ntss4 = document.createElement('INPUT')
+        ntss4.setAttribute("type","range")
+        nts4.append(ntss4)
+
+        var nts5 = document.createElement('p')
+        nts5.innerHTML='Recruitment: '
+        nts5.classList.add('pspace')
+        var ntss5 = document.createElement('INPUT')
+        ntss5.setAttribute("type","range")
+        nts5.append(ntss5)
+
+        //Main//
+        nontechnicallist.append(nts,nts2,nts3,nts4,nts5)
+
+        //Main//
+        var skillspicture = document.createElement('img')
+        skillspicture.src = "skills.png";
+        skillspicture.classList.add('skillphoto')
+    
+
+
+        //Main//
+    secondsection.append(skills,technical,nontechnical, technicallist,nontechnicallist,skillspicture)
+
+
+        //Work Experiece//
+        var thirdsection = document.createElement('div')
+        //Main//
+        var wepicture = document.createElement('img')
+        wepicture.src = "work.jpg";
+        wepicture.classList.add('wephoto')
+
+        //Main//
+        var workexp = document.createElement('div')
+        workexp.innerHTML = 'Work Experience'
+        workexp.classList.add('we2')
+
+        var headingwork1 = document.createElement('p')
+        headingwork1.innerHTML='Event Manager'
+        headingwork1.classList.add('exp1')
+        var headingwork1dates =document.createElement('span')
+        headingwork1dates.innerHTML ='03/2014-02/2017'
+        headingwork1dates.classList.add('timeline')
+        headingwork1.append(headingwork1dates)
+        //main//
+        var place =document.createElement('p')
+        place.innerHTML='C3 Presents Washington DC'
+        place.classList.add('exp1place')
+
+        //main//
+        var experiencecontent1 =document.createElement('p')
+        var ul1 = document.createElement('ul')
+        ul1.classList.add('exp1p1')
+        var li1 = document.createElement('li')
+        li1.innerHTML ='Lead and execute all phases of event planning and production spanning committe recruitment,vendor relationship and on-site facilitation'
+        var li2 = document.createElement('li')
+        li2.innerHTML='Brought new business to the organisation through relentless netwokring and stewardship which helped the comapny win the bid for the state department summiton the middle east and the companies largest civic event to date,United State of women'
+        var li3 =document.createElement('li')
+        li3.innerHTML='Exercise fiscal control over budget creation,tracking and reporting.collaborate with employees at all organisation levels to advance cohesive operations'
+        ul1.append(li1,li2,li3)
+        experiencecontent1.append(ul1)
+
+
+
+        thirdsection.append(wepicture,workexp,headingwork1,place,experiencecontent1)
+
+
+
+        //Main//
+        var fourthsection = document.createElement('div')
+        //Main//
+        var wepicture2 = document.createElement('img')
+        wepicture2.src = "work2.jpg";
+        wepicture2.classList.add('we2photo')
+
+        //Main//
+        var workexp2 = document.createElement('div')
+        workexp2.innerHTML = 'Work Experience'
+        workexp2.classList.add('we')
+
+        var headingwork2 = document.createElement('p')
+        headingwork2.innerHTML='Community Relations Manager'
+        headingwork2.classList.add('exp2')
+        var headingwork2dates =document.createElement('span')
+        headingwork2dates.innerHTML ='06/2011-01/2014'
+        headingwork2dates.classList.add('timeline2')
+        headingwork2.append(headingwork2dates)
+        //main//
+        var place2 =document.createElement('p')
+        place2.innerHTML='Gay and Lesbian Elder Housing,Los Angeles'
+        place2.classList.add('exp2place')
+
+        //main//
+        var experiencecontent2 =document.createElement('p')
+        var ul2 = document.createElement('ul')
+        ul2.classList.add('exp1p2')
+        var li4 = document.createElement('li')
+        li4.innerHTML ='Arranging Presentation and Pitch deck'
+        var li5 = document.createElement('li')
+        li5.innerHTML='Designing a PR plan and establishing important focus points'
+        var li6 =document.createElement('li')
+        li6.innerHTML='Designing,Creating and managing content across multiple communication platforms'
+        var li7 =document.createElement('li')
+        li7.innerHTML='Buliding relationships with key media players'
+        ul2.append(li4,li5,li6,li7)
+        experiencecontent2.append(ul2)
+
+
+
+        //Main//
+        fourthsection.append(wepicture2,workexp2,headingwork2,place2,experiencecontent2)
+
+        var fifthsection = document.createElement('div')
+
+        
+        //Main//
+        var educationicon = document.createElement('img')
+        educationicon.src = "edu.png" 
+        educationicon.classList.add('eduphoto')
+
+        //Main//
+        
+        var educational = document.createElement('div')
+        educational.innerHTML='Education'
+        educational.classList.add('edu')
+
+
+        //Main//
+        var educationplace = document.createElement('p')
+        educationplace.innerHTML='Engineering Immersion Program'
+        educationplace.classList.add('edu1')
+        var educationdates =document.createElement('span')
+        educationdates.innerHTML ='11/2018-06/2018'
+        educationdates.classList.add('timeline3')
+        educationplace.append(educationdates)
+
+        //Main//
+        var educationlocation = document.createElement('div')
+        educationlocation.innerHTML = 'Thinkful Chicago,IL'
+        educationlocation.classList.add('eduplace')
+
+        //Main//
+        var educationbrief = document.createElement('div')
+        educationbrief.innerHTML ='A Project-focused intensive program with anemphasis on Mongo,Express,React and Javascript(MERN) Technical Stack'
+        educationbrief.classList.add('description')
+
+        //Main//
+        var educationcontent =document.createElement('p')
+        var ul3 = document.createElement('ul')
+        ul3.classList.add('edudesc')
+        var li8 = document.createElement('li')
+        li8.innerHTML ='Developed a full-stack web application,"RenewU",using React that allows users to explore various aspects of meditation.Users progress is stored on a backend created using Node and MongoDB'
+        var li9 = document.createElement('li')
+        li9.innerHTML='Developed a language learning app,"Foodie Phonetics" using spaced repetition and a linked list data structure.React was used to create the front end components while Node and Mongo were used to create a backend that stores data'
+        var li10 =document.createElement('li')
+        li10.innerHTML='Developed a concierege app,"Pley",for individuals lokking curated suggestions when visiting a new place.React was used to develop the front end which includes real time chat,drag and drop and variety advanced features.The backend,built using Node express and Mongo takes advantage of well-developed RESTful API,Geospatial searching and user authentication with JWT'
+        ul3.append(li8,li9,li10,li10)
+        educationcontent.append(ul3)
+
+        //Main//
+        var educationplace2 = document.createElement('p')
+        educationplace2.innerHTML='BA,English'
+        educationplace2.classList.add('edu2')
+        var educationdates2 =document.createElement('span')
+        educationdates2.innerHTML ='09/2001-09/2005'
+        educationdates2.classList.add('timeline4')
+        educationplace2.append(educationdates2)
+
+        //Main//
+        var educationlocation2 = document.createElement('div')
+        educationlocation2.innerHTML = 'University of California,Los Angeles'
+        educationlocation2.classList.add('eduplace2')
+
+
+
+        fifthsection.append(educational,educationicon,educationplace,educationlocation,educationbrief,educationcontent,educationplace2,educationlocation2)
+
+
+        //Main//
+        var sixthsection = document.createElement('div')
+        sixthsection.innerHTML='BRIAN DUDEY'
+        sixthsection.classList.add('namestyling')
+
+
+
+    
+    document.body.append(firstblock,secondblock,thirdblock,profilepicture,fourthblock,details,horline,verline,firstsection,secondsection,thirdsection,fourthsection,fifthsection,sixthsection)
+    
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
