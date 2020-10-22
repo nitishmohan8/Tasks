@@ -23,37 +23,3 @@
 // var answer = document.querySelector('p')
 
 
-function outputget(){
-  return document.getElementById("view").innerText;
-}
-
-function printOutput(num) {
-  if (num == "") {
-    document.getElementById("output_value").innerText = num;
-  } else {
-    document.getElementById("output_value").innerText = stringFormat(num);
-  }
-}
-function stringFormat(num) {
-  if (num == "-") {
-    return "";
-  }
-  var n = Number(num);
-  var value = n.toLocaleString("en");
-  return value;
-}
-function numberFormat(num) {
-  return Number(num.replace(/,/g, ""));
-}
-
-
-var number = document.querySelectorAll('number')
-for(var i=0; i< number.length ;i++){
-  number[i].addEventListener("click",function(){
-    var output = outputget()
-    if(output != NaN) {
-      output = output + this.id
-      printOutput(output);
-    }
-  })
-}
