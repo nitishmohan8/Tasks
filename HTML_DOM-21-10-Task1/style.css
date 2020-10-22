@@ -1,0 +1,46 @@
+.number{
+	 width: 70.5px;
+  height: 70.5px;
+  border-radius: 10px;
+  margin: 2px;
+  color: black;
+}
+
+.operator{
+  width: 70.5px;
+  height: 70.5px;
+  border-radius: 10px;
+  margin: 2px;
+  color:white;
+}
+
+
+.maindiv{
+	position: absolute;
+	left: 600px;
+	top: 150px;
+}
+
+.displayview{
+	font-size: 30px;
+	width: 300px;
+	height: 80px;
+	position: absolute;
+	background-color: rgb(160, 147, 189);
+	position:absolute;
+	left: 600px;
+	top: 90px;
+	border-radius: 10px;
+	text-align: right;
+
+
+}
+
+.design{
+ color: black;
+}
+
+.design2{
+color: black;
+
+}
