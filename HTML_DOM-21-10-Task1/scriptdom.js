@@ -1,8 +1,8 @@
-var view = document.createElement('div')
+var view = document.createElement('p')
 view.setAttribute('type','view')
 view.setAttribute('id','view')
 view.classList.add('displayview')
-view.innerHTML='1223'
+
 document.body.append(view)
 
 
@@ -35,12 +35,12 @@ num3.classList.add('btn','btn-primary','btn-lg','number')
 num3.innerHTML = '3'
 cal_form.append(num3)
 
-var add = document.createElement('button')
-add.setAttribute('type','button')
-add.setAttribute('id','button4')
-add.classList.add('btn','btn-warning','btn-lg','operator')
-add.innerHTML = '+'
-cal_form.append(add)
+var addition = document.createElement('button')
+addition.setAttribute('type','button')
+addition.setAttribute('id','button4')
+addition.classList.add('btn','btn-warning','btn-lg','operator')
+addition.innerHTML = '+'
+cal_form.append(addition)
 
 var break2 = document.createElement('br')
 cal_form.append(break2)
