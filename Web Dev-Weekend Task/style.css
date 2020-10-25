@@ -1,0 +1,191 @@
+.userimage{
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    top: 48px;
+    left: 525px;
+    border: 1px solid black;
+
+}
+.addressimage{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 88px;
+    left: 525px;
+    border: 1px solid black;
+}
+.addressimage2{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 128px;
+    left: 525px;
+    border: 1px solid black;
+}
+.cityimage{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 168px;
+    left: 525px;
+    border: 1px solid black;
+}
+.stateimage{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 208px;
+    left: 525px;
+    border: 1px solid black;
+}
+.postalimage{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 248px;
+    left: 525px;
+    border: 1px solid black;
+}
+.countryimage{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 298px;
+    left: 525px;
+    border: 1px solid black;
+}
+.emailimage{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 338px;
+    left: 525px;
+    border: 1px solid black;
+}
+.phoneimage{
+    height: 22px;
+    width: 22px;
+    position:absolute;
+    top: 368px;
+    left: 525px;
+    border: 1px solid black;
+}
+
+.tabclass{
+    border: 1px solid black;
+   width: 780px;
+   height:530px;
+   position: absolute;
+   left: 100px;
+   top: 100px;
+   background-color: rgb(224, 224, 224);
+   display: flex;
+ 
+
+   
+}
+
+.label1{
+    position: absolute;
+    left:100px;
+    top: 50px;
+    
+}
+.label2{
+    position: absolute;
+    left:100px;
+    top: 90px;
+}.label3{
+    position: absolute;
+    left:100px;
+    top: 130px;
+}.label4{
+    position: absolute;
+    left:100px;
+    top: 170px;
+}.label5{
+    position: absolute;
+    left:100px;
+    top: 210px;
+}
+.label6{
+    position: absolute;
+    left:100px;
+    top: 250px;
+}.label7{
+    position: absolute;
+    left:100px;
+    top: 290px;
+}.label8{
+    position: absolute;
+    left:100px;
+    top: 330px;
+}
+.label9{
+    position: absolute;
+    left:100px;
+    top: 370px;
+}
+
+.text1{
+    position: absolute;
+    left: 550px;
+    top: 50px;
+}
+.text2{
+    position: absolute;
+    left:550px;
+    top: 90px;
+}.text3{
+    position: absolute;
+    left:550px;
+    top: 130px;
+   
+}.text4{
+    position: absolute;
+    left:550px;
+    top: 170px;
+}.text5{
+    position: absolute;
+    left:550px;
+    top: 210px;
+}
+.text6{
+    position: absolute;
+    left:550px;
+    top: 250px;
+}.text7{
+    position: absolute;
+    left:550px;
+    top: 290px;
+}.text8{
+    position: absolute;
+    left:550px;
+    top: 330px;
+}
+.text9{
+    position: absolute;
+    left:550px;
+    top: 370px;
+}
+.buttonstyle{
+    position: absolute;
+    left:360px;
+    top: 450px;
+    padding: 10px 10px 10px 10px;
+    width: 80px;;
+}
+@media (min-width:400px){
+    body{
+        display:flex;
+    }
+}
+
+
+@media (min-width:900px){
+        tabclass{
+            margin:auto;
+        }
+        
+}
