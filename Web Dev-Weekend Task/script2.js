@@ -76,7 +76,7 @@ block2.appendChild(block2part3)
 
 function landingpage(){
     var page = document.createElement("a")
-    page.setAttribute("href","Task-1.html")
+    page.setAttribute("href","index1.html")
     block2.appendChild(page)
 }
 
