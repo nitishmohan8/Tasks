@@ -225,3 +225,529 @@
     top: 900px;
     left:300px;
 }
+
+@media only screen and (max-width:430px){
+      
+  
+
+
+
+.block1{
+    position: absolute;
+    left:90px;
+    top:20px;
+   
+    
+}
+
+.span1{
+    position: absolute;
+    left: 380px;
+    
+    
+}
+.span2{
+    position: absolute;
+    left: 450px;
+}
+.span3{
+    position: absolute;
+    left: 520px;
+}
+
+
+
+.block2{
+    position: absolute;
+    left:90px;
+    
+}
+.block2part1{
+    
+    
+    position: absolute;
+    left:200px;
+    
+    
+
+}
+.block2part2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 100px;
+    left:100px;
+    line-height: 1px;
+    text-align: center;
+    
+}
+.button4{
+    
+    position: absolute;
+    top:250px;
+    left:280px;
+}
+.button5{
+    
+    position: absolute;
+    top:320px;
+    left:245px;
+    
+}
+
+.subheading1{
+  position: absolute;
+  left: 160px;
+  top:500px;
+  font-size: 18px;
+}
+.subcontent1{
+    position: absolute;
+  left: 160px;
+  right:110px;
+  top:540px;
+  font-size: 11px;
+  text-align: justify;
+
+}
+.subheading2{
+  position: absolute;
+  left: 160px;
+  top:620px;
+  font-size: 18px;
+  }
+.subcontent2{
+  position: absolute;
+  left: 160px;
+  right:110px;
+  top:660px;
+  font-size: 11px;
+  text-align: justify;
+  
+  }
+
+.subheading3{
+  position: absolute;
+  left: 160px;
+  top:740px;
+  font-size: 18px;
+  }
+.subcontent3{
+  position: absolute;
+  left: 160px;
+  right:110px;
+  top:780px;
+  font-size: 11px;
+  text-align: justify;
+  
+}
+
+.subheading4{
+  position: absolute;
+  left: 470px;
+  top:500px;
+  font-size: 18px;
+}
+.subcontent4{
+  position: absolute;
+  left: 470px;
+  right:-200px;
+  top:540px;
+  font-size: 11px;
+  text-align: justify;
+ 
+  
+}
+
+.subheading5{
+      position: absolute;
+      left: 470px;
+      top:620px;
+      font-size: 18px;
+}
+.subcontent5{
+  position: absolute;
+  left: 470px;
+  right:-200px;
+  top:660px;
+  font-size: 11px;
+  text-align: justify;
+    
+  
+}
+
+.subheading6{
+  position: absolute;
+  left: 470px;
+  top:740px;
+  font-size: 18px;
+}
+.subcontent6{
+  position: absolute;
+  left: 470px;
+  right:-200px;
+  top:780px;
+  font-size: 11px;
+  text-align: justify;
+  
+}
+
+.footerf{
+    
+    position: absolute;
+    top: 1200px;
+    left:60px;
+}
+
+
+}
+
+@media only screen and (min-width:432px) and (max-width:778px) {
+
+  .block1{
+    position: absolute;
+    left:130px;
+    top:20px;
+   
+    
+}
+
+.span1{
+    position: absolute;
+    left: 380px;
+    
+    
+}
+.span2{
+    position: absolute;
+    left: 450px;
+}
+.span3{
+    position: absolute;
+    left: 520px;
+}
+
+
+
+.block2{
+    position: absolute;
+    left:130px;
+    
+}
+.block2part1{
+    
+    
+    position: absolute;
+    left:200px;
+    
+    
+
+}
+.block2part2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 100px;
+    left:100px;
+    line-height: 1px;
+    text-align: center;
+    
+}
+.button4{
+    
+    position: absolute;
+    top:250px;
+    left:280px;
+}
+.button5{
+    
+    position: absolute;
+    top:320px;
+    left:245px;
+    
+}
+
+.subheading1{
+  position: absolute;
+  left: 230px;
+  top:500px;
+  font-size: 18px;
+}
+.subcontent1{
+    position: absolute;
+  left: 230px;
+  right:340px;
+  top:540px;
+  font-size: 11px;
+  text-align: justify;
+
+}
+.subheading2{
+  position: absolute;
+  left: 230px;
+  top:620px;
+  font-size: 18px;
+  }
+.subcontent2{
+  position: absolute;
+  left: 230px;
+  right:340px;
+  top:660px;
+  font-size: 11px;
+  text-align: justify;
+  
+  }
+
+.subheading3{
+  position: absolute;
+  left: 230px;
+  top:740px;
+  font-size: 18px;
+  }
+.subcontent3{
+  position: absolute;
+  left: 230px;
+  right:340px;
+  top:780px;
+  font-size: 11px;
+  text-align: justify;
+  
+}
+
+.subheading4{
+  position: absolute;
+  left: 560px;
+  top:500px;
+  font-size: 18px;
+}
+.subcontent4{
+  position: absolute;
+  left: 560px;
+  right: 10px;
+  top:540px;
+  font-size: 11px;
+  text-align: justify;
+ 
+  
+}
+
+.subheading5{
+      position: absolute;
+      left: 560px;
+      top:620px;
+      font-size: 18px;
+}
+.subcontent5{
+  position: absolute;
+  left: 560px;
+  right:10px;
+  top:660px;
+  font-size: 11px;
+  text-align: justify;
+    
+  
+}
+
+.subheading6{
+  position: absolute;
+  left: 560px;
+  top:740px;
+  font-size: 18px;
+}
+.subcontent6{
+  position: absolute;
+  left: 560px;
+  right:10px;
+  top:780px;
+  font-size: 11px;
+  text-align: justify;
+  
+}
+
+.footerf{
+    
+    position: absolute;
+    top: 1200px;
+    left:130px;
+}
+
+
+
+
+
+}
+
+@media only screen and (min-width:779px) and (max-width:1028px) {
+
+  .block1{
+    position: absolute;
+    left:130px;
+    top:20px;
+   
+    
+}
+
+.span1{
+    position: absolute;
+    left: 380px;
+    
+    
+}
+.span2{
+    position: absolute;
+    left: 450px;
+}
+.span3{
+    position: absolute;
+    left: 520px;
+}
+
+
+
+.block2{
+    position: absolute;
+    left:130px;
+    
+}
+.block2part1{
+    
+    
+    position: absolute;
+    left:200px;
+    
+    
+
+}
+.block2part2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 100px;
+    left:100px;
+    line-height: 1px;
+    text-align: center;
+    
+}
+.button4{
+    
+    position: absolute;
+    top:250px;
+    left:280px;
+}
+.button5{
+    
+    position: absolute;
+    top:320px;
+    left:245px;
+    
+}
+
+.subheading1{
+  position: absolute;
+  left: 230px;
+  top:500px;
+  font-size: 18px;
+}
+.subcontent1{
+    position: absolute;
+  left: 230px;
+  right:590px;
+  top:540px;
+  font-size: 11px;
+  text-align: justify;
+
+}
+.subheading2{
+  position: absolute;
+  left: 230px;
+  top:620px;
+  font-size: 18px;
+  }
+.subcontent2{
+  position: absolute;
+  left: 230px;
+  right:590px;
+  top:660px;
+  font-size: 11px;
+  text-align: justify;
+  
+  }
+
+.subheading3{
+  position: absolute;
+  left: 230px;
+  top:740px;
+  font-size: 18px;
+  }
+.subcontent3{
+  position: absolute;
+  left: 230px;
+  right:590px;
+  top:780px;
+  font-size: 11px;
+  text-align: justify;
+  
+}
+
+.subheading4{
+  position: absolute;
+  left: 560px;
+  top:500px;
+  font-size: 18px;
+}
+.subcontent4{
+  position: absolute;
+  left: 560px;
+  right: 260px;
+  top:540px;
+  font-size: 11px;
+  text-align: justify;
+ 
+  
+}
+
+.subheading5{
+      position: absolute;
+      left: 560px;
+      top:620px;
+      font-size: 18px;
+}
+.subcontent5{
+  position: absolute;
+  left: 560px;
+  right:260px;
+  top:660px;
+  font-size: 11px;
+  text-align: justify;
+    
+  
+}
+
+.subheading6{
+  position: absolute;
+  left: 560px;
+  top:740px;
+  font-size: 18px;
+}
+.subcontent6{
+  position: absolute;
+  left: 560px;
+  right:260px;
+  top:780px;
+  font-size: 11px;
+  text-align: justify;
+  
+}
+
+.footerf{
+    
+    position: absolute;
+    top: 1200px;
+    left:130px;
+}
+
+
+
+
+
+}
